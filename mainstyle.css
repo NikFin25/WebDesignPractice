@@ -13,7 +13,7 @@ body{
 .products {
     flex: 1;
 
-    width: 50%;
+    width: auto;
     height: auto;
     
 
@@ -25,7 +25,7 @@ body{
 .block {
     
     margin-top: 10px;
-    padding-top: 10px;
+    padding: 10px;
 
     
     background-color: rgb(54, 48, 48);
