@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url("background.jpg");
+    background-size: cover;
+
+}
+.products {
+    flex: 1;
+
+    width: 50%;
+    height: auto;
+    
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.block {
+    
+    margin-top: 10px;
+    padding-top: 10px;
+
+    
+    background-color: rgb(54, 48, 48);
+    background: linear-gradient();
+    border-radius: 20px;
+
+    border: 10px inset rgba(100, 95, 95, 0.4);
+}
+.block_inputs{
+    
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+    
+}
+.inputs{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.heading{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gainsboro;
+
+} 
