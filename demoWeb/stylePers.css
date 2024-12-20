@@ -72,3 +72,26 @@ p{
     text-indent: 20px;
     font-size: large;
 }
+@media (max-width: 768px) {
+    #header {
+        flex-direction: column; 
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .headerRight {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    
+    .headerRight a {
+        padding: 10px;
+        font-size: 14px; 
+    }
+
+    .headerLeft h1 {
+        font-size: xx-large; 
+    }
+
+}
